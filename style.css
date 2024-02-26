@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merienda:wght@900&family=Rubik+Glitch&display=swap');
+.nav-text{
+  border: 2px solid white;
+  background-color: white;
+}
+.image{
+  display: flex;
+  align-items: left;
+}
+.mass-body{
+    background-image: url('https://media.giphy.com/media/sxwk9hGlsULcYm6hDX/giphy.gif');
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+body{
+  background-image: url('https://media.giphy.com/media/sxwk9hGlsULcYm6hDX/giphy.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+.pad{
+  padding:1%;
+}
+.item-nav{
+    color: white;
+    font-family: 'Salsa', cursive;
+    border-bottom: 2px solid transparent; /* Set initial border */
+  transition: border-bottom 0.4s ease-in-out;
+}
+.item-nav:hover{
+    color: rgb(101, 86, 234);
+    font-size: 120%;
+    border-color: blue;
+}
+.anchor{
+    margin-left: auto;
+}
+.heading,.nav-logo {
+    color:white;
+    font-size: 200%;
+    font-family: 'Salsa', cursive;
+    animation: fadeIn 2s ease-in-out; /* Define the animation */
+  }
+  
+  @keyframes fadeIn { /* Animation keyframes */
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .ejive{
+    font-size: 150px;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+    margin-bottom: 0%;
+    text-align: center;
+  }
+  .flowing-text{
+    font-size: 50px;
+    margin-top: auto;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    -webkit-text-fill-color: transparent; /* Transparent default fill */
+  -webkit-text-stroke: 1px; /* Stroke width for clarity */
+  background: linear-gradient(to right, red, orange, yellow, green, blue); /* Linear gradient background */
+  -webkit-background-clip: text; /* Clip gradient to text shape */
+  -webkit-text-fill-color: transparent; /* Apply gradient as text fill */
+  animation: color-flow 1s linear infinite; /* Animation for continuous flow */
+  }
+  @keyframes color-flow {
+    0% { background-position: 0% 50%; } /* Start gradient at left edge */
+    100% { background-position: 100% 50%; } /* Move gradient to right edge */
+  }
+  .neonText {
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 8px #fff,
+        0 0 15px #fff,
+        0 0 20px #0fa,
+        0 0 25px #0fa,
+        0 0 50px #0fa,
+        0 0 60px #0fa,
+        0 0 80px #0fa;
+  }
+  .intro-p{
+    color: #fff;
+    font-size: 200%;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  .animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+  
+
+  
+  .btn-primary{
+    color: white;
+  }
+  .brighten img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+    
+    .brighten img:hover {
+    -webkit-filter: brightness(100%);
+    }
+    .stride {
+      background-color: #09962c;
+      color: black;
+      padding: 5px 4px;
+      text-align: center;
+      font-size: 16px;
+      transition: 0.3s;
+      font-family: 'Salsa', cursive;
+      border: 1px solid black;
+      border-radius: 2px;
+    }
+    
+    .stride:hover {
+      background-color: #b9db0d;
+      color: white;
+    }
+    @media only screen and (max-width: 390px){
+    .header{
+      display: flex;
+      justify-content: 1px;
+    }
+    .header h1{
+      color: white;
+      font-size: 500%;
+      font-family: 'Salsa', cursive;
+    }
+    .header img{
+      height: 40px;
+      width: 20px;
+    }
+    .nav-logo{
+      height: 80px;
+      width: 50px;
+    }
+    .heading,.nav-logo {
+      color: white;
+      font-size: 100%;
+      font-family: 'Salsa', cursive;
+      animation: fadeIn 2s ease-in-out; /* Define the animation */
+    }
+    .item-nav{
+      color: white;
+      font-family: 'Salsa', cursive;
+      border-bottom: 2px solid transparent; /* Set initial border */
+    transition: border-bottom 0.4s ease-in-out;
+  }
+  .item-nav:hover{
+      color: rgb(101, 86, 234);
+      font-size: 60%;
+      border-bottom-color: blue;
+  }
+  
+  .ejive{
+    font-size: 60px;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+    margin-bottom: 0%;
+  }
+  .flowing-text{
+    font-size: 50px;
+    margin-top: auto;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    -webkit-text-fill-color: transparent; /* Transparent default fill */
+  -webkit-text-stroke: 1px; /* Stroke width for clarity */
+  background: linear-gradient(to right, red, orange, yellow, green, blue); /* Linear gradient background */
+  -webkit-background-clip: text; /* Clip gradient to text shape */
+  -webkit-text-fill-color: transparent; /* Apply gradient as text fill */
+  animation: color-flow 1s linear infinite; /* Animation for continuous flow */
+  }
+  @keyframes color-flow {
+    0% { background-position: 0% 50%; } /* Start gradient at left edge */
+    100% { background-position: 100% 50%; } /* Move gradient to right edge */
+  }
+  .intro-p{
+    color: #fff;
+    font-size: 150%;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+  }
+  .button{
+    font-family: 'Salsa', cursive;
+    background-color: black;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 10%;
+    font-family: 'Salsa', cursive;
+    margin-right: 0.5%;
+  }
+  .button:hover{
+    color: rgb(101, 86, 234);
+    font-size: 80%;
+    border-bottom-color: blue;
+}
+    }
+    .button{
+      font-family: 'Salsa', cursive;
+      background-color: black;
+      color: white;
+      border: 1px solid white;
+      border-radius: 1%;
+      font-family: 'Salsa', cursive;
+      margin-right: 0.1%;
+    }
+    .button:hover{
+      color: rgb(101, 86, 234);
+      font-size: 80%;
+      border-bottom-color: blue;
+  }
+  
+  .nav-top{
+    padding-right: 100%;
+    height: 5%;
+  }
+  .heading{
+  font-family: 'Salsa', cursive;
+  color: white;
+  text-align: center;
+  }
+  .button{
+    font-family: 'Salsa', cursive;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 80%;
+    display: inline-block;
+  }
+  .button:hover{
+    color: rgb(101, 86, 234);
+    font-size: 100%;
+    border-bottom-color: blue;
+}
+.block{
+  display: inline-block;
+}
+.disp{
+  float: right;
+}

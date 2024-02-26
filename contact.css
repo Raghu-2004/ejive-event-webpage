@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+.anim-logo{
+    display: flex;
+    float: right;
+    margin-top: 2%;
+  }
+  .nav-bar{
+    background-image: url(bganim.gif);
+}

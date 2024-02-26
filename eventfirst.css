@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merienda:wght@900&family=Protest+Riot&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Honk&family=Kanit:wght@500&family=Merienda:wght@900&family=Protest+Riot&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Honk&family=Kanit:wght@500&family=Merienda:wght@900&family=Protest+Riot&family=Rubik+Glitch&family=Teko:wght@300..700&display=swap');
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(bganim5.gif);
+    background-size: contain;
+}
+.hod{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.7%;
+}
+.anim-logo{
+  display: flex;
+  float: right;
+  margin-top: 2%;
+}
+.nav-bar{
+    background-image: url(bganim.gif);
+}
+.event{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50;
+    text-align: center;
+}
+.title{
+    color: rgb(67, 67, 231);
+    text-align: center;
+}
+.contact-co{
+  background-color: #07070b;
+  opacity: 0;
+}
+.faculty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.7%;
+}
+.coordinator{
+  margin-top: 0%;
+}
+.student{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.7%;
+}
+.header{
+    display: inline;
+    float: right;
+}
+.para{
+  color: white;
+  text-align: center;
+  opacity: 1;
+}
+.intro-text{
+  background-color: #142440;
+  opacity: 0.9;
+}
+
+
+.container {
+    display: flex; /* Arrange elements side-by-side */
+  }
+
+  .img {
+    width: 150px; /* Adjust image width as needed */
+    height: 220px; /* Adjust image height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-left: 3%;
+  }
+
+  .description {
+    margin-left: 15px; /* Add spacing between image and text */
+    color: white;
+  }
+  h2{
+    color: rgb(194, 78, 111);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .fade-in-image {
+    display: inline;
+    align-items: center;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .image{
+    border: 1.5px solid white;
+  }
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 120%;
+}
+a{
+    font-size: 20px;
+}
+a:hover{
+    font-size: 25px;
+    color: rgb(231, 30, 30);
+}
+.img:hover{
+    width: 180px ;
+    height: 300px;
+}
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.9;
+}
+.fa-instagram {
+  background: #dee4e9;
+  color: rgb(239, 11, 140);
+  border-radius: 80%;
+  display: flex;
+  float: right;
+}
+.footer{
+  background-color: rgb(148, 117, 78);
+}
+h3{
+margin-left: 5%;
+margin-top: 3%;
+}
+:root {
+  --hs: 225, 100%;
+  --paper: hsl(var(--hs), 25%);
+  --highlight: hsl(var(--hs), 45%);
+  --shadow: hsl(var(--hs), 15%);
+}
+
+h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: clamp(4rem, 12vw + 1rem, 5rem);
+  letter-spacing: 0.1em;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "text";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-image: linear-gradient(305deg, tomato, gold, cyan);
+  margin: 0;
+
+  & > *,
+  &::after {
+    grid-area: text;
+  }
+
+  &::after {
+    content: attr(data-text);
+    color: var(--paper);
+    transform: translate(0.1em, 0.1em);
+    filter: drop-shadow(0.015em 0.015em 0.025em var(--shadow));
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(var(--highlight), var(--paper));
+  }
+}
+
+body {
+  display: grid;
+  place-content: center;
+}
+summary{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.instagram{
+  display: flex;
+  justify-content: right;
+}
+.responsive{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+  box-shadow: 20px 20px rgb(1, 110, 149);
+}
+@media only screen and (max-width: 400px){
+  p{
+    font-size: 90%;
+  }
+  .poster{
+    width: 80%;
+    height: 430;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #151837;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.8;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.team{
+  background-color: rgb(55, 54, 95);
+  opacity: 0.8;
+  text-align: center;
+  color: aquav  ;
+}
+.our-team{
+  color: white;
+  font-size: 350%;
+  font-family: 'Honk', system-ui;
+  text-align: center;
+  opacity: 0.8;
+}

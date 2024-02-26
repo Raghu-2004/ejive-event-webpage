@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+body{
+    background-color: black;
+}
+.anim-logo{
+    display: flex;
+    float: right;
+    margin-top: 2%;
+  }
+  .nav-bar{
+    background-image: url(bganim.gif);
+}
+.responsive{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  box-shadow: 20px 20px rgb(1, 110, 149);
+}
+.matter{
+  color: white;
+  background-image: url(bganim5.gif);
+  background-size: contain;
+  text-align: center;
+  font-size: 100%;
+  font-family: 'Protest Revolution', sans-serif;
+}

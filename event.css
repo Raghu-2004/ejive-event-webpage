@@ -1,0 +1,68 @@
+body{
+  background-image: url('https://media.giphy.com/media/sxwk9hGlsULcYm6hDX/giphy.gif');
+}
+.image{
+  display: flex;
+  align-items: left;
+}
+button{
+  float: right;
+  color: white;
+  background-image: url('https://media.giphy.com/media/sxwk9hGlsULcYm6hDX/giphy.gif');
+  border: 1px solid white;
+  border-radius: 1%;
+  font-family: 'Salsa', cursive;
+  margin-right: 0.1%;
+}
+button:hover{
+  color: rgb(101, 86, 234);
+    font-size: 120%;
+    border-color: blue;
+    font-family: 'Salsa', cursive;
+}
+.card-img-top{
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.card-text{
+  color: white;
+  font-size: 20px;
+}
+.card-body{
+  text-align: center;
+}
+.btn{
+  text-align: center;
+}
+.card-title{
+  font-size: 40px;
+  color: rgb(219, 209, 23);
+  margin-top: 2%;
+  margin-bottom: 0%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid white;
+  border-radius: 25%;
+  font-family: 'Salsa', cursive;
+}
+.btn:hover{
+  font-size: 18px;
+  color: white;
+}
+@media only screen and (max-width: 390px){
+  .card-img-top{
+    height: 150px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  button{
+    font-family: 'Salsa', cursive;
+  }
+}
